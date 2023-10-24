@@ -113,7 +113,7 @@ final class SharedEncoderData {
     /// Any data after the userCapacity is lost
     func expand(to count: Int, usedCapacity size: Int) {
         let new = UnsafeMutablePointer<UInt8>.allocate(capacity: count)
-        new.assign(from: pointer, count: size)
+        new.update(from: pointer, count: size)
         pointer.deallocate()
         totalSize = count
         self.pointer = new
