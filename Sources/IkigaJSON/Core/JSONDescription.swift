@@ -1,4 +1,4 @@
-import NIO
+import ByteBuffer
 import Foundation
 
 /// Stores data efficiently to describe JSON to be parsed lazily into a concrete type

@@ -1,4 +1,4 @@
-//import NIOCore
+//import ByteBufferCore
 //public struct StreamingJSONArrayDecoder<Element: Decodable> {
 //    enum State {
 //        // Before the array has openend

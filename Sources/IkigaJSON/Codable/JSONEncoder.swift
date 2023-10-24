@@ -1,5 +1,5 @@
 import Foundation
-import NIO
+import ByteBuffer
 
 
 /// These settings influence the encoding process.

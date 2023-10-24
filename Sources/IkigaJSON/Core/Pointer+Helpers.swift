@@ -1,4 +1,4 @@
-import NIO
+import ByteBuffer
 
 // Lazily generate and load all exponents
 // TODO: Compile time?

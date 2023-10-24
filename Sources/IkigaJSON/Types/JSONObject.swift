@@ -1,5 +1,5 @@
 import Foundation
-import NIO
+import ByteBuffer
 
 internal func equateJSON(_ lhs: JSONValue?, _ rhs: JSONValue?) -> Bool {
     switch (lhs, rhs) {

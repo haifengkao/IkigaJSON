@@ -1,5 +1,5 @@
 import Foundation
-import NIO
+import ByteBuffer
 
 enum JSONDecoderError: Error {
     case invalidURL(String)

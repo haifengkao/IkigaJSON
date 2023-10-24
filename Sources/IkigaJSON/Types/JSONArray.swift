@@ -1,5 +1,5 @@
 import Foundation
-import NIO
+import ByteBuffer
 
 /// An array containing only JSONValue types.
 ///

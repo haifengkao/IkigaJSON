@@ -1,5 +1,5 @@
 import XCTest
-import NIO
+import ByteBuffer
 import Foundation
 import IkigaJSON
 
