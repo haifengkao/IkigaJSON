@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
 
   s.source_files     = 'Sources/IkigaJSON/**/*'
-  s.dependency 'SwiftNIO', '~> 2.0'
+#   s.dependency 'SwiftNIO', '~> 2.0'
 end
